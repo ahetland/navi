@@ -1,7 +1,6 @@
 module NavMain exposing (main)
 
 import List exposing (map)
-
 import Browser
 
 import Html exposing (Html, div, h1, text, button, a, img, br)
@@ -10,7 +9,7 @@ import Html.Attributes exposing (class, classList, style, rel,
 import Html.Events exposing (onClick)
 import Browser.Events
 import Json.Decode as Decode
-import Icons exposing (viewHome, viewHamburger)
+import Icons exposing (viewHome, viewLogo)
 
 
 -- MAIN
@@ -153,7 +152,7 @@ view model =
                 div [ class "hover:text-white cursor-pointer" ]
                     [  a [ href "/#"
                          , class "text-gray-900 hover:text-white" ]
-                         [ viewHome ]
+                         [ viewLogo ]
                     ]
                 ,
                 div [ ]

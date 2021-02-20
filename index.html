@@ -4,26 +4,84 @@
         <meta charset="UTF-8">
         <title>Page Navigation</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.4/tailwind.min.css">
+
+        <!-- https://dev.to/cryptic022/sticky-header-and-footer-with-tailwind-2oik -->
+
     </head>
     <body>
+    <div class="flex flex-col h-screen"
 
-        <img src="logo.svg" style="width: 120px;">
+        <header class="py-5 bg-green-500 text-white text-center">
 
-        <div id="nav"></div>
+            <div id="nav"></div>
+        </header>
 
-        <div class="container mx-auto my-16">
-        <p>
-            <code>
-                elm make src/NavMain.elm --output nav-main.js
-            </code>
-        </p>
+        <main class="flex-1 overflow-y-auto p-5 bg-yellow-100">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+                <p>
+                    <code>
+                        elm make src/NavMain.elm --output nav-main.js
+                    </code>
+                </p>
 
-        <p>
-            The css is done by tailwind.
-        </p>
+                <p>
+                    The css is done by tailwind.
+                </p>
 
-        </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p> ok </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>Sticky header</p>
+            <p>Sticky header</p>
+            <p>Sticky header</p>
 
+        </main>
+    </div>
         <script src="nav-main.js"></script>
         <script>
             Elm.NavMain.init(
